@@ -60,12 +60,206 @@ a {
   text-decoration: none;
 }
 
-header .container {
+body {
+  background-color: #F1F1F1;
+}
+body header .container {
   max-width: 1170px;
   width: 100%;
   margin: 0 auto;
-  border: 1px solid black;
 }
-header .container nav {
-  width: 500px;
+body header .container nav {
+  max-width: 420px;
+  width: 310px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+body header .container nav ul {
+  max-width: 258px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+body header .container nav ul a {
+  color: #000;
+  font-family: Roboto;
+  font-size: 11px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.s-1 {
+  margin-top: 33px;
+}
+.s-1 .container {
+  max-width: 1170px;
+  width: 100%;
+  margin: 0 auto;
+}
+.s-1 .container h1 {
+  color: #000;
+  font-family: Roboto;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-bottom: 27px;
+}
+.s-1 .container .divwrapper {
+  width: 100%;
+  height: 357px;
+  display: flex;
+  justify-content: space-between;
+}
+.s-1 .container .divwrapper .mydiv {
+  width: 362px;
+  height: 357px;
+  overflow: hidden;
+  border-radius: 5px;
+}
+.s-1 .container .divwrapper .mydiv .v {
+  width: 362px;
+  height: 186px;
+  position: relative;
+}
+.s-1 .container .divwrapper .mydiv .v h3 {
+  position: absolute;
+  display: inline-block;
+  color: #FFF;
+  font-family: Roboto;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  left: 41px;
+  top: 31px;
+}
+.s-1 .container .divwrapper .mydiv .bigdiv {
+  width: 362px;
+  height: 171px;
+  border-radius: none;
+  background-color: #FFF;
+  padding-top: 68px;
+  padding-left: 37px;
+}
+.s-1 .container .divwrapper .mydiv .bigdiv h5 {
+  color: #8A8787;
+  font-family: Roboto;
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  width: 238px;
+  margin-bottom: 10px;
+}
+.s-1 .container .divwrapper .mydiv .bigdiv i {
+  display: inline-block;
+  margin-right: 11px;
+}
+.s-1 .container .divwrapper .mydiv .bigdiv .myh5 {
+  display: inline-block;
+}
+
+.s-2 {
+  padding-top: 57px;
+}
+.s-2 .container {
+  max-width: 1170px;
+  width: 100%;
+  margin: 0 auto;
+}
+.s-2 .container h1 {
+  color: #000;
+  font-family: Roboto;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+  margin-bottom: 30px;
+}
+.s-2 .container .photo {
+  width: 100%;
+  height: 902px;
+  display: flex;
+  justify-content: space-between;
+}
+.s-2 .container .photo .photowrapper {
+  width: 758px;
+  height: 902px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.s-2 .container .photo .photowrapper .f {
+  width: 758px;
+  height: 430px;
+  display: inline-block;
+  position: relative;
+}
+.s-2 .container .photo .photowrapper .f h2 {
+  color: #FFF;
+  font-family: Roboto;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  position: absolute;
+  right: 278px;
+  top: 203px;
+}
+.s-2 .container .photo div {
+  height: 860px;
+  width: 362px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+footer {
+  background-color: #243043;
+  margin-top: 36px;
+}
+footer .container {
+  max-width: 1170px;
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  padding-top: 59px;
+  padding-bottom: 44px;
+}
+footer .container .ulwrapper {
+  display: flex;
+  max-width: 350px;
+  width: 100%;
+  justify-content: space-between;
+}
+footer .container .ulwrapper ul li {
+  color: #818687;
+  font-family: Roboto;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-bottom: 5px;
+}
+footer .container div {
+  max-width: 650px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+footer .container div h2 {
+  color: #FFF;
+  font-family: Roboto;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+footer .container div img {
+  width: 38px;
+  height: 40px;
 }/*# sourceMappingURL=global.css.map */
